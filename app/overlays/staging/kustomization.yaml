@@ -1,0 +1,8 @@
+bases:
+- ../../base
+replicas:
+- name: nginx-deployment
+  count: 1
+commonLabels:
+  env: staging
+

@@ -1,0 +1,7 @@
+bases:
+- ../../base
+replicas:
+- name: nginx-deployment
+  count: 3
+commonLabels:
+  env: prod
